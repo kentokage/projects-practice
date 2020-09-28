@@ -1,0 +1,38 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(https://images.unsplash.com/photo-1553484604-9f524520c793?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2857&q=80);
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.title {
+  font-size: 6rem;
+  margin: 2rem;
+}
+
+.timer {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.period {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 4rem;
+}
+
+.periodValue {
+  font-size: 5rem;
+  text-align: center;
+}
